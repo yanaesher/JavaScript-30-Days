@@ -40,12 +40,12 @@ document.addEventListener("keydown", (event) => {
 - Ideal for global shortcuts or games.
 
 
-## 6. `transitionend` Event
+## 4. `transitionend` Event
 
 The `transitionend` event is fired when a CSS transition **completes** on an element.  
 It’s useful when you want to run code **after** a visual transition finishes.
 
-## 7. Removing a Class After Transition (`transitionend`)
+## 5. Removing a Class After Transition (`transitionend`)
 
 When building interactive UI elements like a drum kit, you often add a class to trigger a CSS animation or transform.  
 You can use the `transitionend` event to **remove the class** after the animation finishes.
